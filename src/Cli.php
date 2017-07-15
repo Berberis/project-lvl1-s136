@@ -11,7 +11,7 @@ $name = trim(fgets(STDIN));
 echo "Hello, {$name}!", PHP_EOL;
 }
 */
-///*
+
 use function \cli\line;
 
 function run()
@@ -20,4 +20,3 @@ function run()
   $name = \cli\prompt('May I have your name?');
   line("Hello, %s!", $name);
 }
-//*/
