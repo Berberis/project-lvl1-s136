@@ -1,0 +1,12 @@
+{
+    "name": "lumo/progect1",
+    "description": "Hexlet - Brain Games",
+    "bin": ["bin/brain-games"],
+    "authors": [
+        {
+            "name": "lumo",
+            "email": "lumolilumo@gmail.com"
+        }
+    ],
+    "require": {}
+}
