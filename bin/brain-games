@@ -2,4 +2,4 @@
 
 <?php
 
-echo "Welcome to the Brain Games!";
+require_once 'Cli.php';
