@@ -3,7 +3,8 @@
     "description": "Hexlet - Brain Games",
     "bin": ["bin/brain-games",
             "bin/brain-even",
-            "bin/brain-calc"],
+            "bin/brain-calc",
+            "bin/brain-gcd"],
     "authors": [
         {
             "name": "lumo",
@@ -17,7 +18,8 @@
         "files": [
           "src/Cli.php",
           "src/Even.php",
-          "src/Calc.php"
+          "src/Calc.php",
+          "src/Gcd.php"
         ]
     },
     "require-dev": {
