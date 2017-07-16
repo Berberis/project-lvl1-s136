@@ -34,6 +34,7 @@ function calc()
                   echo 'ERROR';
                   return false;
           }
+      }
 
     $correctAnswer = function ($task) {
         list($num1, $operation, $num2) = explode(' ', $task);
