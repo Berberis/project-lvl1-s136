@@ -30,7 +30,7 @@ function calc()
                 return $num1 * $num2;
             default:
                 return $num1 - $num2;
-          }
+        }
     }
 
     $correctAnswer = function ($task) {
