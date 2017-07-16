@@ -39,6 +39,7 @@ function calc()
     $correctAnswer = function ($task) {
         list($num1, $operation, $num2) = explode(' ', $task);
         return calculate($num1, $num2, $operation);
-
+    };
+    
     universalOutput($RULES_OF_THE_GAME, $task, $correctAnswer);
 }
