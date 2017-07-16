@@ -6,7 +6,7 @@ use function \BrainGames\Cli\universalOutput;
 
 function calc()
 {
-    define (RULES_OF_THE_GAME, 'What is the result of the expression?');
+    define(RULES_OF_THE_GAME, 'What is the result of the expression?');
 
     $task = function () {
         $num1 = rand(1, 10);
@@ -17,9 +17,9 @@ function calc()
             case 1:
                 return $num1 . ' * ' . $num2;
             default:
-                return $num1 . ' - ' . $num2;
-        }
-    };
+            return $num1 . ' - ' . $num2;
+            }
+        };
 
     function calculate($num1, $num2, $operation)
     {

@@ -6,7 +6,7 @@ use function \BrainGames\Cli\universalOutput;
 
 function even()
 {
-    define (RULES_OF_THE_GAME, 'Answer "yes" if number even, otherwise answer "no".');
+    define(RULES_OF_THE_GAME, 'Answer "yes" if number even, otherwise answer "no".');
 
     $number = function () {
         return rand(1, 99);

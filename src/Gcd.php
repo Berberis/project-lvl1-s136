@@ -6,7 +6,7 @@ use function \BrainGames\Cli\universalOutput;
 
 function gcd()
 {
-    define (RULES_OF_THE_GAME, 'Find the greatest common divisor of given numbers.');
+    define(RULES_OF_THE_GAME, 'Find the greatest common divisor of given numbers.');
 
     $task = function () {
         $num1 = rand(1, 99);
