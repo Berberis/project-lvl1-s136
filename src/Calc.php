@@ -28,11 +28,8 @@ function calc()
                   return $num1 + $num2;
               case '*':
                   return $num1 * $num2;
-              case '-':
-                  return $num1 - $num2;
               default:
-                  echo 'ERROR';
-                  return false;
+                  return $num1 - $num2;
           }
       }
 
@@ -40,6 +37,6 @@ function calc()
         list($num1, $operation, $num2) = explode(' ', $task);
         return calculate($num1, $num2, $operation);
     };
-    
+
     universalOutput($RULES_OF_THE_GAME, $task, $correctAnswer);
 }
