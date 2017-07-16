@@ -25,14 +25,14 @@ function universalOutput($rules, $question, $correctAnswer)
            line("Question: %s", $task);
            $answer = \cli\prompt('Your answer', 0);
            $correct = $correctAnswer($task);
-           if ($correct == $answer) {
+        if ($correct == $answer) {
                line("Correct!");
-           } else {
+        } else {
                line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correct);
                line('Try again, %s!', $name);
                return;
-           }
-      }
+        }
+    }
     line('Congratulations, %s!', $name);
     return;
 }
