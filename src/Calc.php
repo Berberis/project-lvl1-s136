@@ -6,7 +6,7 @@ use function \BrainGames\Cli\universalOutput;
 
 function calc()
 {
-    $RULES_OF_THE_GAME = 'What is the result of the expression?';
+    define (RULES_OF_THE_GAME, 'What is the result of the expression?');
 
     $task = function () {
         $num1 = rand(1, 10);
