@@ -1,7 +1,9 @@
 {
     "name": "lumo/progect1",
     "description": "Hexlet - Brain Games",
-    "bin": ["bin/brain-games"],
+    "bin": ["bin/brain-games",
+            "bin/brain-even",
+            "bin/brain-calc"],
     "authors": [
         {
             "name": "lumo",
@@ -13,7 +15,9 @@
     },
     "autoload": {
         "files": [
-          "src/Cli.php"
+          "src/Cli.php",
+          "src/Even.php",
+          "src/Calc.php"
         ]
     },
     "require-dev": {
