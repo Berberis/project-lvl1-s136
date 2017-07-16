@@ -16,10 +16,9 @@ function calc()
                 return $num1 . ' + ' . $num2;
             case 1:
                 return $num1 . ' * ' . $num2;
-            default:
-            return $num1 . ' - ' . $num2;
-            }
-        };
+            default: return $num1 . ' - ' . $num2;
+        }
+      };
 
     function calculate($num1, $num2, $operation)
     {
