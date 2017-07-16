@@ -17,9 +17,9 @@ function gcd()
     function findGcd($num1, $num2)  //using Euclidean algorithm
     {
         while ($num1 <> 0 && $num2 <> 0) {
-          if ($num1 > $num2)
+        if ($num1 > $num2) {
             $num1 = $num1 % $num2;
-          else
+        } else {
             $num2 = $num2 % $num1;
         }
         return abs($num1 + $num2);
