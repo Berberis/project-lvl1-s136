@@ -19,7 +19,7 @@ function calc()
             default:
                 return $num1 . ' - ' . $num2;
         }
-      };
+    };
 
     function calculate($num1, $num2, $operation)
     {
