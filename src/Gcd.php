@@ -21,7 +21,7 @@ function gcd()
                 $num1 = $num1 % $num2;
             } else {
                 $num2 = $num2 % $num1;
-              }
+            }
         }
         return abs($num1 + $num2);
     }
